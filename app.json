@@ -7,12 +7,12 @@
     "sdkVersion": "23.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
-    "primaryColor": "#cccccc",
-    "icon": "./assets/icon.png",
+    "primaryColor": "#EFDA5B",
+    "icon": "./assets/js-logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logos/charm-cityjs.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f1efe5"
     },
     "ios": {
       "supportsTablet": true
