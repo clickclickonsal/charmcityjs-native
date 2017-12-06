@@ -1,13 +1,13 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { View, StatusBar } from "react-native";
+import { ScrollView, View, StatusBar } from "react-native";
 import EStyleSheet from "react-native-extended-stylesheet";
 
 import styles from "./styles";
 
 const Container = ({ children }) => {
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <StatusBar
         translucent
         backgroundColor={EStyleSheet.value("$secondary")}
@@ -15,7 +15,7 @@ const Container = ({ children }) => {
       />
       <View style={styles.header} />
       <View style={styles.content}>{children}</View>
-    </View>
+    </ScrollView>
   );
 };
 

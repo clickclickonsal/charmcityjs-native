@@ -1,3 +1,4 @@
+import { StatusBar } from "react-native";
 import { StackNavigator } from "react-navigation";
 
 import Home from "../screens/Home";
@@ -15,12 +16,12 @@ export default StackNavigator(
     CodeOfConduct: {
       screen: CodeOfConduct,
       navigationOptions: {
-        headerTitle: "Options"
+        headerTitle: "Code of Conduct"
       }
     }
   },
   {
     mode: "modal",
-    headerMode: "none"
+    cardStyle: { paddingTop: StatusBar.currentHeight }
   }
 );

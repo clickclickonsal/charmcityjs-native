@@ -8,8 +8,10 @@ export default EStyleSheet.create({
     flex: 1
   },
   header: {
-    height: STATUSBAR_HEIGHT,
-    backgroundColor: "$secondary"
+    "@media ios": {
+      height: STATUSBAR_HEIGHT,
+      backgroundColor: "$secondary"
+    }
   },
   content: {
     backgroundColor: "$primary",
