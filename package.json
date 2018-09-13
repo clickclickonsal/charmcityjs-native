@@ -4,7 +4,7 @@
   "dependencies": {
     "expo": "^28.0.0",
     "prop-types": "^15.6.0",
-    "react": "16.4.1",
+    "react": "16.5.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
     "react-native-extended-stylesheet": "^0.8.0",
     "react-native-hyperlink": "^0.0.14",
