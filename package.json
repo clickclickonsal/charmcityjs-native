@@ -8,6 +8,6 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
     "react-native-extended-stylesheet": "^0.8.0",
     "react-native-hyperlink": "^0.0.14",
-    "react-navigation": "^2.9.2"
+    "react-navigation": "^4.3.4"
   }
 }
